@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8BFA9C615A41A100051ED19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BFA9C515A41A100051ED19 /* UIKit.framework */; };
+		A8BFA9C815A41A100051ED19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BFA9C715A41A100051ED19 /* Foundation.framework */; };
+		A8BFA9CA15A41A100051ED19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BFA9C915A41A100051ED19 /* CoreGraphics.framework */; };
+		A8BFA9D015A41A100051ED19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8BFA9CE15A41A100051ED19 /* InfoPlist.strings */; };
+		A8BFA9D215A41A100051ED19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BFA9D115A41A100051ED19 /* main.m */; };
+		A8BFA9D615A41A100051ED19 /* HYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BFA9D515A41A100051ED19 /* HYAppDelegate.m */; };
+		A8BFA9D915A41A100051ED19 /* HYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BFA9D815A41A100051ED19 /* HYViewController.m */; };
+		A8BFA9DC15A41A100051ED19 /* HYViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8BFA9DA15A41A100051ED19 /* HYViewController_iPhone.xib */; };
+		A8BFA9DF15A41A110051ED19 /* HYViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8BFA9DD15A41A110051ED19 /* HYViewController_iPad.xib */; };
+		A8BFA9EF15A41A770051ED19 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A8BFA9E615A41A770051ED19 /* images.bundle */; };
+		A8BFA9F015A41A770051ED19 /* JSScrollableTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BFA9E815A41A770051ED19 /* JSScrollableTabBar.m */; };
+		A8BFA9F115A41A770051ED19 /* JSTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BFA9EA15A41A770051ED19 /* JSTabButton.m */; };
+		A8BFA9F215A41A770051ED19 /* JSTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BFA9EC15A41A770051ED19 /* JSTabItem.m */; };
+		A8BFA9F315A41A770051ED19 /* UIImage+JSRetinaAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BFA9EE15A41A770051ED19 /* UIImage+JSRetinaAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8BFA9C115A41A100051ED19 /* ScrollableTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BFA9C515A41A100051ED19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8BFA9C715A41A100051ED19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8BFA9C915A41A100051ED19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8BFA9CD15A41A100051ED19 /* ScrollableTabBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollableTabBar-Info.plist"; sourceTree = "<group>"; };
+		A8BFA9CF15A41A100051ED19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8BFA9D115A41A100051ED19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8BFA9D315A41A100051ED19 /* ScrollableTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollableTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		A8BFA9D415A41A100051ED19 /* HYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYAppDelegate.h; sourceTree = "<group>"; };
+		A8BFA9D515A41A100051ED19 /* HYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYAppDelegate.m; sourceTree = "<group>"; };
+		A8BFA9D715A41A100051ED19 /* HYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYViewController.h; sourceTree = "<group>"; };
+		A8BFA9D815A41A100051ED19 /* HYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYViewController.m; sourceTree = "<group>"; };
+		A8BFA9DB15A41A100051ED19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HYViewController_iPhone.xib; sourceTree = "<group>"; };
+		A8BFA9DE15A41A110051ED19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HYViewController_iPad.xib; sourceTree = "<group>"; };
+		A8BFA9E615A41A770051ED19 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
+		A8BFA9E715A41A770051ED19 /* JSScrollableTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSScrollableTabBar.h; sourceTree = "<group>"; };
+		A8BFA9E815A41A770051ED19 /* JSScrollableTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSScrollableTabBar.m; sourceTree = "<group>"; };
+		A8BFA9E915A41A770051ED19 /* JSTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTabButton.h; sourceTree = "<group>"; };
+		A8BFA9EA15A41A770051ED19 /* JSTabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTabButton.m; sourceTree = "<group>"; };
+		A8BFA9EB15A41A770051ED19 /* JSTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTabItem.h; sourceTree = "<group>"; };
+		A8BFA9EC15A41A770051ED19 /* JSTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTabItem.m; sourceTree = "<group>"; };
+		A8BFA9ED15A41A770051ED19 /* UIImage+JSRetinaAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JSRetinaAdditions.h"; sourceTree = "<group>"; };
+		A8BFA9EE15A41A770051ED19 /* UIImage+JSRetinaAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JSRetinaAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BFA9BE15A41A100051ED19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BFA9C615A41A100051ED19 /* UIKit.framework in Frameworks */,
+				A8BFA9C815A41A100051ED19 /* Foundation.framework in Frameworks */,
+				A8BFA9CA15A41A100051ED19 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8BFA9B615A41A100051ED19 = {
+			isa = PBXGroup;
+			children = (
+				A8BFA9E515A41A280051ED19 /* lib */,
+				A8BFA9CB15A41A100051ED19 /* ScrollableTabBar */,
+				A8BFA9C415A41A100051ED19 /* Frameworks */,
+				A8BFA9C215A41A100051ED19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BFA9C215A41A100051ED19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BFA9C115A41A100051ED19 /* ScrollableTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BFA9C415A41A100051ED19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8BFA9C515A41A100051ED19 /* UIKit.framework */,
+				A8BFA9C715A41A100051ED19 /* Foundation.framework */,
+				A8BFA9C915A41A100051ED19 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8BFA9CB15A41A100051ED19 /* ScrollableTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A8BFA9D415A41A100051ED19 /* HYAppDelegate.h */,
+				A8BFA9D515A41A100051ED19 /* HYAppDelegate.m */,
+				A8BFA9D715A41A100051ED19 /* HYViewController.h */,
+				A8BFA9D815A41A100051ED19 /* HYViewController.m */,
+				A8BFA9DA15A41A100051ED19 /* HYViewController_iPhone.xib */,
+				A8BFA9DD15A41A110051ED19 /* HYViewController_iPad.xib */,
+				A8BFA9CC15A41A100051ED19 /* Supporting Files */,
+			);
+			path = ScrollableTabBar;
+			sourceTree = "<group>";
+		};
+		A8BFA9CC15A41A100051ED19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8BFA9CD15A41A100051ED19 /* ScrollableTabBar-Info.plist */,
+				A8BFA9CE15A41A100051ED19 /* InfoPlist.strings */,
+				A8BFA9D115A41A100051ED19 /* main.m */,
+				A8BFA9D315A41A100051ED19 /* ScrollableTabBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8BFA9E515A41A280051ED19 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A8BFA9E615A41A770051ED19 /* images.bundle */,
+				A8BFA9E715A41A770051ED19 /* JSScrollableTabBar.h */,
+				A8BFA9E815A41A770051ED19 /* JSScrollableTabBar.m */,
+				A8BFA9E915A41A770051ED19 /* JSTabButton.h */,
+				A8BFA9EA15A41A770051ED19 /* JSTabButton.m */,
+				A8BFA9EB15A41A770051ED19 /* JSTabItem.h */,
+				A8BFA9EC15A41A770051ED19 /* JSTabItem.m */,
+				A8BFA9ED15A41A770051ED19 /* UIImage+JSRetinaAdditions.h */,
+				A8BFA9EE15A41A770051ED19 /* UIImage+JSRetinaAdditions.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BFA9C015A41A100051ED19 /* ScrollableTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BFA9E215A41A110051ED19 /* Build configuration list for PBXNativeTarget "ScrollableTabBar" */;
+			buildPhases = (
+				A8BFA9BD15A41A100051ED19 /* Sources */,
+				A8BFA9BE15A41A100051ED19 /* Frameworks */,
+				A8BFA9BF15A41A100051ED19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollableTabBar;
+			productName = ScrollableTabBar;
+			productReference = A8BFA9C115A41A100051ED19 /* ScrollableTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BFA9B815A41A100051ED19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HY;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A8BFA9BB15A41A100051ED19 /* Build configuration list for PBXProject "ScrollableTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8BFA9B615A41A100051ED19;
+			productRefGroup = A8BFA9C215A41A100051ED19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BFA9C015A41A100051ED19 /* ScrollableTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BFA9BF15A41A100051ED19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BFA9D015A41A100051ED19 /* InfoPlist.strings in Resources */,
+				A8BFA9DC15A41A100051ED19 /* HYViewController_iPhone.xib in Resources */,
+				A8BFA9DF15A41A110051ED19 /* HYViewController_iPad.xib in Resources */,
+				A8BFA9EF15A41A770051ED19 /* images.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BFA9BD15A41A100051ED19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BFA9D215A41A100051ED19 /* main.m in Sources */,
+				A8BFA9D615A41A100051ED19 /* HYAppDelegate.m in Sources */,
+				A8BFA9D915A41A100051ED19 /* HYViewController.m in Sources */,
+				A8BFA9F015A41A770051ED19 /* JSScrollableTabBar.m in Sources */,
+				A8BFA9F115A41A770051ED19 /* JSTabButton.m in Sources */,
+				A8BFA9F215A41A770051ED19 /* JSTabItem.m in Sources */,
+				A8BFA9F315A41A770051ED19 /* UIImage+JSRetinaAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8BFA9CE15A41A100051ED19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BFA9CF15A41A100051ED19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8BFA9DA15A41A100051ED19 /* HYViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BFA9DB15A41A100051ED19 /* en */,
+			);
+			name = HYViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A8BFA9DD15A41A110051ED19 /* HYViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BFA9DE15A41A110051ED19 /* en */,
+			);
+			name = HYViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8BFA9E015A41A110051ED19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8BFA9E115A41A110051ED19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8BFA9E315A41A110051ED19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollableTabBar/ScrollableTabBar-Prefix.pch";
+				INFOPLIST_FILE = "ScrollableTabBar/ScrollableTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8BFA9E415A41A110051ED19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollableTabBar/ScrollableTabBar-Prefix.pch";
+				INFOPLIST_FILE = "ScrollableTabBar/ScrollableTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BFA9BB15A41A100051ED19 /* Build configuration list for PBXProject "ScrollableTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BFA9E015A41A110051ED19 /* Debug */,
+				A8BFA9E115A41A110051ED19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BFA9E215A41A110051ED19 /* Build configuration list for PBXNativeTarget "ScrollableTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BFA9E315A41A110051ED19 /* Debug */,
+				A8BFA9E415A41A110051ED19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8BFA9B815A41A100051ED19 /* Project object */;
+}
